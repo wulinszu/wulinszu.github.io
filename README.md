@@ -14,15 +14,3 @@
 [1] Wu Lin, Qiuzhen Lin, Zexuan Zhu, Jianqiang Li, Jianyong Chen, Zhong MingEvolutionary Search with Multiple Utopian Reference Points in Decomposition-based Multiobjective Optimization
 You can use the [editor on GitHub](https://github.com/wulinszu/wulinszu.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
