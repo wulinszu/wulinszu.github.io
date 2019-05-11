@@ -1,7 +1,11 @@
 # Wu Lin
 
 ### Research interests: 
-evolutionary computation, multimodal optimization and constraint optimization.
+  *evolutionary computation
+  *multimodal optimization
+  *constraint optimization
+
+### Education
 
 You can use the [editor on GitHub](https://github.com/wulinszu/wulinszu.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
