@@ -11,6 +11,6 @@
     
 ### Paper
 
-[1] Wu Lin, Qiuzhen Lin, Zexuan Zhu, Jianqiang Li, Jianyong Chen, and Zhong Ming,"Evolutionary Search with Multiple Utopian Reference Points in Decomposition-based Multiobjective Optimization", Complexity, 2019,[paper](https://www.hindawi.com/journals/complexity/2019/7436712/)
+[1] Wu Lin, Qiuzhen Lin, Zexuan Zhu, Jianqiang Li, Jianyong Chen, and Zhong Ming,"[Evolutionary Search with Multiple Utopian Reference Points in Decomposition-based Multiobjective Optimization]", Complexity, 2019, in press, DOI: [download codes](https://www.hindawi.com/journals/complexity/2019/7436712/)
 
 
