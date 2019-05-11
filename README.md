@@ -1,8 +1,8 @@
 # Wu Lin
 
 ### Research interests: 
-  *evolutionary computation
-  *multimodal optimization
+    #evolutionary computation
+    *multimodal optimization
   *constraint optimization
 
 ### Education
