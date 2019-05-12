@@ -1,9 +1,9 @@
 #  Wu Lin 
 
 ### Research interests
-    Evolutionary computation
-    Multimodal optimization
-    Constraint optimization
+  Evolutionary computation
+  Multimodal optimization
+  Constraint optimization
 
 ### Education
 
