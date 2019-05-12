@@ -8,7 +8,7 @@
 ### Education
 
 I received the B.Sc. in information management and information system 
-from Hubei University of Technology, Hubei, China, in 2017, and, will 
+from Hubei University of Technology, Hubei, China, in 2017, and I will 
 receive the M.Sc. in computer science and technology from Shenzhen 
 University, Shenzhen, China, in 2020
     
