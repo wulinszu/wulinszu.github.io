@@ -1,4 +1,4 @@
-# Wu Lin
+# **Wu Lin**
 
 ### Research interests
     Evolutionary computation
