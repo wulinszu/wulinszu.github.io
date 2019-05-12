@@ -3,7 +3,6 @@
 ### Research interests
 
 Evolutionary computation
-
 Multimodal optimization
   
 Constraint optimization
