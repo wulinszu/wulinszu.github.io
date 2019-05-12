@@ -6,8 +6,8 @@
     Constraint optimization
 
 ### Education
-    Received the B.Sc. in from Hubei University of Technology, Hubei, China, in 2017
-    Received the M.Sc. in from Shenzhen University, Shenzhen, China, in 2020
+    Received the B.Sc. in information management and information system from Hubei University of Technology, Hubei, China, in 2017
+    Received the M.Sc. in computer science and technology from Shenzhen University, Shenzhen, China, in 2020
     
 ### Paper
 
