@@ -3,25 +3,54 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="Lin Wu · Postdoctoral Researcher" />
-  <title>About · Lin Wu</title>
-  <link rel="stylesheet" href="styles.css?v=8" />
+  <meta name="author" content="Wu Lin" />
+  <meta name="description" content="Wu Lin · Academic Homepage" />
+  <title>About · Wu Lin</title>
+  <link rel="stylesheet" href="styles.css?v=20" />
 </head>
 <body>
   <div class="container">
     <header class="masthead">
-      <div class="site-info"><h1><a href="./">Lin Wu</a></h1><p data-i18n="role">林武</p></div>
-      <nav aria-label="Contact links"><a href="mailto:linwu2017@email.szu.edu.cn">Email</a><a href="https://scholar.google.com.hk/citations?user=gQwHh30AAAAJ&amp;hl=zh-CN" target="_blank" rel="noreferrer">Google Scholar</a><a href="https://github.com/wulinszu" target="_blank" rel="noreferrer">GitHub</a><button id="lang-toggle" class="lang-toggle" type="button" aria-label="Switch language">中文</button></nav>
+      <div class="site-info"><h1><a href="./">Wu Lin</a></h1><p>林武</p></div>
     </header>
     <main class="page">
-      <h2 data-i18n="aboutTitle">About</h2>
-      <p data-i18n="aboutP1">I am a postdoctoral research fellow at Shenzhen University.</p>
-      <h2 id="publications" data-i18n="pubTitle">Selected Publications</h2>
+      <h2>About</h2>
+      <div class="career-history" aria-label="Academic history">
+        <p class="career-entry"><span class="career-period">2025–Now</span> Postdoctoral Research Fellow, Shenzhen University</p>
+        <p class="career-entry"><span class="career-period">2021–2024</span> PhD, The Hong Kong Polytechnic University</p>
+      </div>
+      <h2 id="publications">Selected Publications</h2>
       <ul id="publication-list" class="publication-list"></ul>
-      <p><span data-i18n="scholarLead">See my</span> <a href="https://scholar.google.com.hk/citations?user=gQwHh30AAAAJ&amp;hl=zh-CN" target="_blank" rel="noreferrer" data-i18n="scholarLink">Google Scholar profile</a> <span data-i18n="scholarEnd">for the full list.</span></p>
+      <p>See my <a href="https://scholar.google.com.hk/citations?user=gQwHh30AAAAJ&amp;hl=en" target="_blank" rel="noreferrer">Google Scholar profile</a> for the full list.</p>
+      <h2 id="awards">Awards &amp; Honors</h2>
+      <ul class="award-list">
+        <li><strong>IEEE CEC 2026 Competition on Multimodal Multiobjective Optimization</strong><br /><span>Second Place: NCG-GSEA (Neighborhood and cluster guided grid self-adaptive exploration algorithm)</span><span>Chenming Cao, Yanchen Li, Wu Lin, Xiaoming Xue, Liang Feng, and Kay Chen Tan</span><span><a href="https://sites.google.com/view/tf-mmo/activities/competitions/mmmoocec2026" target="_blank" rel="noopener noreferrer">Website</a> | <a href="https://drive.google.com/file/d/1LscMid0M8sY7XBNbkbx5CtTQ3z3XgwEJ/view" target="_blank" rel="noopener noreferrer">Outcome Report</a></span></li>
+        <li><strong>IEEE CEC 2019 Competition on Multimodal Multiobjective Optimization</strong><br /><span>Second Place: CEOA</span><span>Wu Lin, Qiuzhen Lin, and Zexuan Zhu</span><span><a href="http://www5.zzu.edu.cn/ecilab/info/1036/1163.htm" target="_blank" rel="noopener noreferrer">Website</a> | <a href="https://www5.zzu.edu.cn/cilab/info/1005/1300.htm" target="_blank" rel="noopener noreferrer">Outcome Report</a></span></li>
+      </ul>
     </main>
-    <footer><p>© 2026 Lin Wu · <span data-i18n="updated">Last updated September 2026</span></p></footer>
+    <dialog id="code-dialog" class="bibtex-dialog" aria-labelledby="code-dialog-title">
+      <div class="bibtex-dialog-inner">
+        <div class="bibtex-dialog-header">
+          <h3 id="code-dialog-title">Code Access</h3>
+          <button id="code-close" class="bibtex-close" type="button" aria-label="Close">×</button>
+        </div>
+        <p>To request the code, please email me at <a href="mailto:linwu@szu.edu.cn">linwu@szu.edu.cn</a></p>
+      </div>
+    </dialog>
+    <dialog id="bibtex-dialog" class="bibtex-dialog" aria-labelledby="bibtex-dialog-title">
+      <div class="bibtex-dialog-inner">
+        <div class="bibtex-dialog-header">
+          <h3 id="bibtex-dialog-title">BibTeX</h3>
+          <button id="bibtex-close" class="bibtex-close" type="button" aria-label="Close">×</button>
+        </div>
+        <pre id="bibtex-content" class="bibtex-content"></pre>
+        <div class="bibtex-dialog-actions">
+          <button id="bibtex-copy" aria-live="polite" class="bibtex-copy" type="button">Copy</button>
+        </div>
+      </div>
+    </dialog>
   </div>
-  <script src="script.js?v=2"></script>
+  <script src="publications-data.js?v=2"></script>
+  <script src="script.js?v=6"></script>
 </body>
 </html>

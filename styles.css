@@ -1,10 +1,63 @@
 *{box-sizing:border-box}
-html{font-size:100%;scroll-behavior:smooth}
-body{margin:0;background:#fff;color:#333;font:18px/1.55 Helvetica,Arial,sans-serif}
-.container{width:100%;max-width:1000px;margin:0 auto;padding:0 20px}
-.masthead{display:flex;align-items:center;justify-content:space-between;padding:20px 0;border-bottom:1px solid #eee}
-.site-info h1{font-size:22px;line-height:1.25;margin:0;font-weight:400}.site-info h1 a{color:#222;text-decoration:none}.site-info p{color:#666;font-size:14px;margin:2px 0 0}
-nav{display:flex;align-items:center;gap:22px}nav a,a{color:#4183c4;text-decoration:none}a:hover,a:active{color:#2f65a0;text-decoration:underline}
-.page{padding:28px 0 50px}.page h2{color:#222;font-size:24px;line-height:1.4;margin:0 0 20px;font-weight:700}.page p{margin:15px 0}.page h2:not(:first-child){clear:both;padding-top:20px;margin-top:42px;border-top:1px solid #eee}.publication-list{padding-left:30px;margin:20px 0}.publication-list li{padding:0 0 22px 4px}.publication-list strong{color:#222;font-size:16px;font-weight:700}.publication-list span{color:#666;font-size:16px}.publication-list .publication-authors,.publication-list .publication-venue,.publication-list .publication-links{display:block}.publication-list .publication-authors,.publication-list .publication-venue{color:#333}.publication-list .publication-links{margin-top:2px}.publication-list a{font-size:16px;white-space:nowrap}footer{border-top:1px solid #ddd;padding:20px 0;color:#777;font-size:14px}footer p{margin:0}
-@media(max-width:640px){body{font-size:16px}.container{padding:0 20px}.masthead{display:block;text-align:center}.site-info p{font-size:16px}nav{justify-content:center;flex-wrap:wrap;gap:8px 18px;margin-top:18px}.page{padding-top:22px}.page h2{font-size:21px}.publication-list{padding-left:24px}.publication-list span,.publication-list a,.publication-list .publication-authors,.publication-list .publication-venue{font-size:14px}}
-.lang-toggle{border:0;border-left:1px solid #ddd;background:transparent;color:#4183c4;cursor:pointer;font:inherit;font-size:16px;padding:0 0 0 18px}.lang-toggle:hover{color:#2f65a0;text-decoration:underline}
+
+html{font-size:100%}
+
+body{margin:0;background:#fff;color:#333;font:16px/1.55 Helvetica,Arial,sans-serif}
+
+.container{width:100%;max-width:860px;margin:0 auto;padding:0 20px}
+
+.masthead{padding:24px 0;border-bottom:1px solid #eee}
+
+.site-info h1{font-size:22px;line-height:1.25;margin:0;font-weight:400}
+.site-info h1 a{color:#222;text-decoration:none}
+.site-info p{color:#666;font-size:14px;margin:2px 0 0}
+
+a{color:#4183c4;text-decoration:none}
+a:hover,a:active{color:#2f65a0;text-decoration:underline}
+a:focus-visible{outline:2px solid #4183c4;outline-offset:3px}
+
+.page{padding:28px 0 50px}
+.page h2{color:#222;font-size:22px;line-height:1.4;margin:0 0 20px;font-weight:700}
+.page p{margin:15px 0;font-size:16px}
+.page h2:not(:first-child){padding-top:20px;margin-top:42px;border-top:1px solid #eee}
+.publication-list,.award-list{padding-left:30px;margin:20px 0}
+.publication-list li,.award-list li{padding:0 0 22px 4px}
+.publication-list strong,.award-list strong{color:#222;font-size:16px;font-weight:700}
+.publication-list span{color:#666;font-size:16px}
+.publication-list .publication-authors,.publication-list .publication-venue,.publication-list .publication-links{display:block}
+.publication-list .publication-authors,.publication-list .publication-venue{color:#333}
+.publication-list .publication-links{margin-top:2px}
+.publication-list a{font-size:16px;white-space:nowrap}
+
+.publication-action{border:0;padding:0;background:transparent;color:#4183c4;cursor:pointer;font:inherit;font-size:16px}
+.publication-action:hover{color:#2f65a0;text-decoration:underline}
+.publication-action:focus-visible{outline:2px solid #4183c4;outline-offset:3px}
+
+.career-history{margin:0 0 4px}
+.page .career-entry{margin:8px 0}
+.career-period{display:inline-block;width:96px;color:#777;font-variant-numeric:tabular-nums;white-space:nowrap}
+
+.award-list span{color:#666;font-size:16px;display:block}
+
+.bibtex-dialog{width:min(760px,calc(100% - 32px));max-width:none;padding:0;border:1px solid #dfe3e8;border-radius:6px;background:#fff;color:#333;box-shadow:0 18px 60px rgba(20,35,50,.22)}
+.bibtex-dialog::backdrop{background:rgba(20,35,50,.38)}
+.bibtex-dialog-inner{padding:20px}
+.bibtex-dialog-header{display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #eee;padding-bottom:12px}
+.bibtex-dialog h3{margin:0;color:#222;font-size:18px;font-weight:600}
+.bibtex-close{border:0;background:transparent;color:#666;cursor:pointer;font-size:26px;line-height:1;padding:0 4px}
+.bibtex-close:hover{color:#222}
+.bibtex-close:focus-visible,.bibtex-copy:focus-visible{outline:2px solid #4183c4;outline-offset:3px}
+.bibtex-content{max-height:52vh;overflow:auto;margin:16px 0;padding:14px;background:#f6f8fa;color:#333;font:13px/1.55 Consolas,"Courier New",monospace;white-space:pre-wrap;overflow-wrap:anywhere}
+.bibtex-dialog-actions{display:flex;justify-content:flex-end}
+.bibtex-copy{border:0;border-radius:4px;background:#4183c4;color:#fff;cursor:pointer;font:inherit;font-size:14px;padding:7px 16px}
+.bibtex-copy:hover{background:#2f65a0}
+
+
+@media (max-width:640px) {
+  .masthead{text-align:center}
+  .page{padding-top:22px}
+  .page h2{font-size:19px}
+  .page p,.publication-list span,.publication-list a,.publication-action,.award-list strong,.award-list span{font-size:14px}
+  .publication-list,.award-list{padding-left:24px}
+  .career-period{width:82px}
+}
