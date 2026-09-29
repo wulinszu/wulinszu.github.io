@@ -1,0 +1,10 @@
+*{box-sizing:border-box}
+html{font-size:100%;scroll-behavior:smooth}
+body{margin:0;background:#fff;color:#333;font:18px/1.55 Helvetica,Arial,sans-serif}
+.container{width:100%;max-width:1000px;margin:0 auto;padding:0 20px}
+.masthead{display:flex;align-items:center;justify-content:space-between;padding:20px 0;border-bottom:1px solid #eee}
+.site-info h1{font-size:22px;line-height:1.25;margin:0;font-weight:400}.site-info h1 a{color:#222;text-decoration:none}.site-info p{color:#666;font-size:14px;margin:2px 0 0}
+nav{display:flex;align-items:center;gap:22px}nav a,a{color:#4183c4;text-decoration:none}a:hover,a:active{color:#2f65a0;text-decoration:underline}
+.page{padding:28px 0 50px}.page h2{color:#222;font-size:24px;line-height:1.4;margin:0 0 20px;font-weight:700}.page p{margin:15px 0}.page h2:not(:first-child){clear:both;padding-top:20px;margin-top:42px;border-top:1px solid #eee}.publication-list{padding-left:30px;margin:20px 0}.publication-list li{padding:0 0 22px 4px}.publication-list strong{color:#222;font-size:16px;font-weight:700}.publication-list span{color:#666;font-size:16px}.publication-list .publication-authors,.publication-list .publication-venue,.publication-list .publication-links{display:block}.publication-list .publication-authors,.publication-list .publication-venue{color:#333}.publication-list .publication-links{margin-top:2px}.publication-list a{font-size:16px;white-space:nowrap}footer{border-top:1px solid #ddd;padding:20px 0;color:#777;font-size:14px}footer p{margin:0}
+@media(max-width:640px){body{font-size:16px}.container{padding:0 20px}.masthead{display:block;text-align:center}.site-info p{font-size:16px}nav{justify-content:center;flex-wrap:wrap;gap:8px 18px;margin-top:18px}.page{padding-top:22px}.page h2{font-size:21px}.publication-list{padding-left:24px}.publication-list span,.publication-list a,.publication-list .publication-authors,.publication-list .publication-venue{font-size:14px}}
+.lang-toggle{border:0;border-left:1px solid #ddd;background:transparent;color:#4183c4;cursor:pointer;font:inherit;font-size:16px;padding:0 0 0 18px}.lang-toggle:hover{color:#2f65a0;text-decoration:underline}
